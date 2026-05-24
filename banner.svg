@@ -1,96 +1,83 @@
-<div align="center">
-  <img src="./banner.svg" width="100%"/>
-</div>
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="100%" style="stop-color:#1a1040"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+    <style>
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      @keyframes in1   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
+      @keyframes in2   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
+      @keyframes in3   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
+      @keyframes in4   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
+      .mono { font-family:'Courier New',monospace; }
+      .sans { font-family:'Segoe UI',Arial,sans-serif; }
+      .r1 { opacity:0; animation:in1 0.4s 0.3s ease forwards; }
+      .r2 { opacity:0; animation:in2 0.4s 0.7s ease forwards; }
+      .r3 { opacity:0; animation:in3 0.4s 1.1s ease forwards; }
+      .r4 { opacity:0; animation:in4 0.4s 1.5s ease forwards; }
+      .cur{ animation:blink 1s 1.5s infinite; }
+    </style>
+  </defs>
 
-<br/>
+  <!-- Window bg -->
+  <rect width="900" height="200" rx="10" fill="url(#grad)"/>
 
-<div align="center">
+  <!-- Title bar -->
+  <rect width="900" height="36" rx="10" fill="#1e1b36"/>
+  <rect y="26" width="900" height="10" fill="#1e1b36"/>
+  <rect y="36" width="900" height="1" fill="#2d2a50"/>
 
-I turn ideas into apps — **Flutter** on the front, **Python** for the brain, **FastAPI** for the glue.  
-Currently obsessed with bringing AI into mobile experiences that actually feel magical.
+  <!-- Traffic lights -->
+  <circle cx="26" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="18" r="6" fill="#27c93f"/>
 
-<br/>
+  <!-- Tab title -->
+  <text x="450" y="22" text-anchor="middle" class="mono" fill="#8b89a8" font-size="12">~/your-name — main ✦</text>
 
-*Based in Your City &nbsp;·&nbsp; Open to collabs &nbsp;·&nbsp; Always building something*
+  <!-- Prompt line 1 -->
+  <g class="r1">
+    <text x="32" y="68" class="mono" fill="#6b7280" font-size="13">Last login: Mon Oct 14 22:31:04</text>
+  </g>
 
-</div>
+  <!-- Prompt line 2 -->
+  <g class="r2">
+    <text x="32" y="96" class="mono" font-size="14">
+      <tspan fill="#27c93f">your-name</tspan>
+      <tspan fill="#8b89a8">@</tspan>
+      <tspan fill="#38bdf8">github</tspan>
+      <tspan fill="#8b89a8"> ~/portfolio </tspan>
+      <tspan fill="#a78bfa">main ✦</tspan>
+      <tspan fill="#8b89a8"> ❯ </tspan>
+      <tspan fill="#f8fafc">whoami</tspan>
+    </text>
+  </g>
 
----
+  <!-- Output: name big -->
+  <g class="r3">
+    <text x="32" y="133" class="sans" font-size="32" font-weight="700" fill="url(#acc)">Your Name</text>
+  </g>
 
-<table>
-<tr>
-<td width="33%" align="center"><br/>📱<br/><br/><b>Mobile First</b><br/><br/>Cross-platform apps with Flutter & Dart — from wireframe to App Store, built to last.<br/><br/></td>
-<td width="33%" align="center"><br/>🤖<br/><br/><b>AI / ML</b><br/><br/>NLP, on-device models, recommendation systems — making apps feel like they think.<br/><br/></td>
-<td width="33%" align="center"><br/>⚙️<br/><br/><b>Backend</b><br/><br/>Clean APIs, real databases, deployed on AWS. FastAPI, Django — whatever the problem needs.<br/><br/></td>
-</tr>
-</table>
+  <!-- Output: subtitle -->
+  <g class="r4">
+    <text x="34" y="155" class="mono" font-size="13" fill="#8b89a8">→ Mobile Dev · AI/ML · Backend · Open Source</text>
+  </g>
 
----
-
-### 🚧 What I'm building
-
-> **[Project Name]** — One sentence that makes someone want to ask about it  
-> Diving deep into **RAG pipelines** and **TFLite + Flutter** for on-device intelligence  
-> Currently learning: *[something specific and real]*
-
----
-
-### 🛠 Stack
-
-&nbsp;&nbsp;&nbsp;&nbsp;**Mobile** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flutter &nbsp;·&nbsp; Dart  
-&nbsp;&nbsp;&nbsp;&nbsp;**AI / ML** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python &nbsp;·&nbsp; TensorFlow &nbsp;·&nbsp; scikit-learn  
-&nbsp;&nbsp;&nbsp;&nbsp;**Backend** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FastAPI &nbsp;·&nbsp; Django &nbsp;·&nbsp; PHP  
-&nbsp;&nbsp;&nbsp;&nbsp;**Data** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MySQL &nbsp;·&nbsp; SQLite  
-&nbsp;&nbsp;&nbsp;&nbsp;**Infra** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Linux  
-&nbsp;&nbsp;&nbsp;&nbsp;**Also know** &nbsp;&nbsp;&nbsp;&nbsp;Java  
-
----
-
-### 📌 Projects
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-[![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_1&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_1)
-
-Flutter · FastAPI · AWS &nbsp;·&nbsp; *What it does in one line.*
-
-</td>
-<td width="50%" align="center">
-
-[![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_2&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_2)
-
-Python · ML · Django &nbsp;·&nbsp; *What it does in one line.*
-
-</td>
-</tr>
-</table>
-
----
-
-### 📈 Activity
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0f0c29&color=a78bfa&line=38bdf8&point=ffffff&area=true&hide_border=true&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
-  <img alt="snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"/>
-</picture>
-</div>
-
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=38bdf8)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-0f0c29?style=for-the-badge&logo=twitter&logoColor=a78bfa)](https://twitter.com/YOUR_TWITTER)
-[![Email](https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=38bdf8)](mailto:your@email.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=vercel&logoColor=a78bfa)](https://your-site.com)
-
-<br/>
-
-![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=a78bfa&style=flat-square&label=visitors)
-
-</div>
+  <!-- New prompt + cursor -->
+  <g class="r4">
+    <text x="32" y="182" class="mono" font-size="14">
+      <tspan fill="#27c93f">your-name</tspan>
+      <tspan fill="#8b89a8">@</tspan>
+      <tspan fill="#38bdf8">github</tspan>
+      <tspan fill="#8b89a8"> ~/portfolio </tspan>
+      <tspan fill="#a78bfa">main ✦</tspan>
+      <tspan fill="#8b89a8"> ❯ </tspan>
+    </text>
+    <rect x="210" y="169" width="9" height="16" fill="#a78bfa" class="cur"/>
+  </g>
+</svg>

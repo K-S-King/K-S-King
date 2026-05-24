@@ -1,57 +1,83 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20there!%20I'm%20[Your%20Name]%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Developer%20%7C%20Open%20Source%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=55&descSize=18" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Building+things+that+run+in+the+dark+%F0%9F%8C%99;APIs%2C+Databases%2C+and+everything+in+between;Always+learning%2C+always+shipping+%F0%9F%9A%80;Open+to+collabs+%26+cool+projects+%F0%9F%A4%9D)](https://git.io/typing-svg)
-
+  <img src="./banner.svg" width="100%" alt="banner" />
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## `$ whoami`
 
-```yaml
-name:       "Karan"
-role:       "Backend Developer."
-currently:  "Building cool stuff and learning every day."
-interests:  ["System Design", "APIs", "Databases", "Open Source"]
-fun_fact:   "I talk to my terminal more than people 😄"
+```python
+class Developer:
+    name       = "Karan"
+    focus      = ["Mobile App Development", "AI / ML", "Backend Systems"]
+    languages  = ["Python", "Java", "Dart", "PHP"]
+    currently  = "Building AI-powered mobile apps"
+    open_to    = "Collaborations, freelance & open source"
+    fun_fact   = "I debug in my dreams 🛌"
 ```
+
+---
+
+## 🧠 What I Built
+
+<table>
+<tr>
+<td width="50%">
+
+### 📱 Mobile Development
+Building cross-platform apps with **Flutter & Dart** — from sleek UIs to full-featured production apps. Obsessed with smooth animations and clean architecture.
+
+</td>
+<td width="50%">
+
+### 🤖 AI / ML
+Experimenting with models, pipelines, and integrating intelligence into real apps — whether it's a recommendation engine, NLP feature, or computer vision tool.
+
+</td>
+</tr>
+<tr>
+<td>
+
+### ⚙️ Backend & APIs
+Crafting fast, reliable APIs with **FastAPI** and **Django**. Everything from REST design to database optimization and cloud deployment.
+
+</td>
+<td>
+
+### 🗄️ Data & Databases
+Working with **MySQL** & **SQLite** for structured data, designing efficient schemas, and writing queries that don't make the DBA cry.
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0f0c29?style=for-the-badge&logo=python&logoColor=a78bfa)
+![Java](https://img.shields.io/badge/Java-0f0c29?style=for-the-badge&logo=openjdk&logoColor=38bdf8)
+![Dart](https://img.shields.io/badge/Dart-0f0c29?style=for-the-badge&logo=dart&logoColor=a78bfa)
+![PHP](https://img.shields.io/badge/PHP-0f0c29?style=for-the-badge&logo=php&logoColor=38bdf8)
 
-**Backend & Frameworks**
+**Mobile & Frameworks**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express)
+![Flutter](https://img.shields.io/badge/Flutter-0f0c29?style=for-the-badge&logo=flutter&logoColor=38bdf8)
+![FastAPI](https://img.shields.io/badge/FastAPI-0f0c29?style=for-the-badge&logo=fastapi&logoColor=a78bfa)
+![Django](https://img.shields.io/badge/Django-0f0c29?style=for-the-badge&logo=django&logoColor=38bdf8)
 
 **Databases**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-0f0c29?style=for-the-badge&logo=mysql&logoColor=a78bfa)
+![SQLite](https://img.shields.io/badge/SQLite-0f0c29?style=for-the-badge&logo=sqlite&logoColor=38bdf8)
 
-**DevOps & Tools**
+**Cloud & DevOps**
 
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-</div>
+![AWS](https://img.shields.io/badge/AWS-0f0c29?style=for-the-badge&logo=amazon-aws&logoColor=a78bfa)
+![Docker](https://img.shields.io/badge/Docker-0f0c29?style=for-the-badge&logo=docker&logoColor=38bdf8)
+![Linux](https://img.shields.io/badge/Linux-0f0c29?style=for-the-badge&logo=linux&logoColor=a78bfa)
 
 ---
 
@@ -59,14 +85,14 @@ fun_fact:   "I talk to my terminal more than people 😄"
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1" />
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&text_color=cbd5e1" />
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&border_radius=10)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0f0c29&ring=a78bfa&fire=38bdf8&currStreakLabel=a78bfa)](https://git.io/streak-stats)
 
 </div>
 
@@ -75,23 +101,10 @@ fun_fact:   "I talk to my terminal more than people 😄"
 ## 🐍 Contribution Snake
 
 <div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"/>
 </picture>
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
 </div>
 
 ---
@@ -100,30 +113,26 @@ fun_fact:   "I talk to my terminal more than people 😄"
 
 <div align="center">
 
-[![Project Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_1&theme=tokyonight&hide_border=true)](https://github.com/YOUR_USERNAME/YOUR_REPO_1)
-[![Project Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_2&theme=tokyonight&hide_border=true)](https://github.com/YOUR_USERNAME/YOUR_REPO_2)
+[![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_1&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_1)
+[![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_2&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_2)
 
 </div>
 
 ---
 
-## 🌐 Connect with Me
+## 🌐 Find Me
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=38bdf8)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Twitter](https://img.shields.io/badge/Twitter-0f0c29?style=for-the-badge&logo=twitter&logoColor=a78bfa)](https://twitter.com/YOUR_TWITTER)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=vercel&logoColor=38bdf8)](https://your-site.com)
+[![Email](https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=a78bfa)](mailto:you@email.com)
 
 </div>
 
----
-
 <div align="center">
 
-![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=6E40C9&style=for-the-badge&label=PROFILE+VIEWS)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>

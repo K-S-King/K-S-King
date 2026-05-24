@@ -1,87 +1,77 @@
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="banner"/>
+  <img src="./banner.svg" width="100%"/>
 </div>
 
 <br/>
 
-```
-╭────────────────────────────────────────────────────────────╮
-│  📂  ~/your-name     on  main ✦     took 0.1s              │
-╰────────────────────────────────────────────────────────────╯
-```
+<div align="center">
 
-### `❯ cat about.json`
+I turn ideas into apps — **Flutter** on the front, **Python** for the brain, **FastAPI** for the glue.  
+Currently obsessed with bringing AI into mobile experiences that actually feel magical.
 
-```json
-{
-  "name":        "Your Name",
-  "location":    "Your City 🌍",
-  "currently":   "Building AI-powered mobile apps with Flutter",
-  "obsessed_with": ["clean architecture", "AI integration", "dark mode everything"],
-  "open_to":     "collabs, freelance & cool open source",
-  "ask_me_about":"mobile dev, AI/ML pipelines, or why Python is 🐐"
-}
-```
+<br/>
+
+*Based in Your City &nbsp;·&nbsp; Open to collabs &nbsp;·&nbsp; Always building something*
+
+</div>
 
 ---
-
-### `❯ ls -la skills/`
-
-| Layer | Stack |
-|---|---|
-| 📱 Mobile | Flutter · Dart |
-| 🤖 AI / ML | Python · TensorFlow · scikit-learn |
-| ⚙️ Backend | FastAPI · Django · PHP |
-| 🗄️ Database | MySQL · SQLite |
-| ☁️ Cloud & Ops | AWS · Docker · Linux |
-| 🔤 Also know | Java |
-
----
-
-### `❯ cat currently_building.txt`
-
-> 🚧 **[Project Name]** — A short punchy description of what you're building right now  
-> 🔬 **Exploring** — LLM fine-tuning, RAG pipelines, on-device ML with Flutter  
-> 📖 **Learning** — What you're currently studying or experimenting with  
-
----
-
-### `❯ git log --graph`
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0f0c29&color=a78bfa&line=38bdf8&point=ffffff&area=true&hide_border=true&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
-### `❯ ls projects/`
 
 <table>
 <tr>
-<td width="50%">
-<h3 align="center">🚀 Project One</h3>
-<div align="center">
+<td width="33%" align="center"><br/>📱<br/><br/><b>Mobile First</b><br/><br/>Cross-platform apps with Flutter & Dart — from wireframe to App Store, built to last.<br/><br/></td>
+<td width="33%" align="center"><br/>🤖<br/><br/><b>AI / ML</b><br/><br/>NLP, on-device models, recommendation systems — making apps feel like they think.<br/><br/></td>
+<td width="33%" align="center"><br/>⚙️<br/><br/><b>Backend</b><br/><br/>Clean APIs, real databases, deployed on AWS. FastAPI, Django — whatever the problem needs.<br/><br/></td>
+</tr>
+</table>
+
+---
+
+### 🚧 What I'm building
+
+> **[Project Name]** — One sentence that makes someone want to ask about it  
+> Diving deep into **RAG pipelines** and **TFLite + Flutter** for on-device intelligence  
+> Currently learning: *[something specific and real]*
+
+---
+
+### 🛠 Stack
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Mobile** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flutter &nbsp;·&nbsp; Dart  
+&nbsp;&nbsp;&nbsp;&nbsp;**AI / ML** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python &nbsp;·&nbsp; TensorFlow &nbsp;·&nbsp; scikit-learn  
+&nbsp;&nbsp;&nbsp;&nbsp;**Backend** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FastAPI &nbsp;·&nbsp; Django &nbsp;·&nbsp; PHP  
+&nbsp;&nbsp;&nbsp;&nbsp;**Data** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MySQL &nbsp;·&nbsp; SQLite  
+&nbsp;&nbsp;&nbsp;&nbsp;**Infra** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Linux  
+&nbsp;&nbsp;&nbsp;&nbsp;**Also know** &nbsp;&nbsp;&nbsp;&nbsp;Java  
+
+---
+
+### 📌 Projects
+
+<table>
+<tr>
+<td width="50%" align="center">
 
 [![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_1&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_1)
 
-**Flutter · FastAPI · AWS** — One line about what it does and why it's cool.
+Flutter · FastAPI · AWS &nbsp;·&nbsp; *What it does in one line.*
 
-</div>
 </td>
-<td width="50%">
-<h3 align="center">🤖 Project Two</h3>
-<div align="center">
+<td width="50%" align="center">
 
 [![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_2&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_2)
 
-**Python · ML · Django** — One line about what it does and why it's cool.
+Python · ML · Django &nbsp;·&nbsp; *What it does in one line.*
 
-</div>
 </td>
 </tr>
 </table>
 
 ---
 
-### `❯ ./snake.sh`
+### 📈 Activity
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0f0c29&color=a78bfa&line=38bdf8&point=ffffff&area=true&hide_border=true&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
 <picture>
@@ -92,17 +82,15 @@
 
 ---
 
-### `❯ cat connect.sh`
-
-```bash
-#!/bin/bash
-# Let's build something 🚀
-open "https://linkedin.com/in/YOUR_LINKEDIN"
-open "https://twitter.com/YOUR_TWITTER"
-open "mailto:your@email.com"
-```
-
 <div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=38bdf8)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Twitter](https://img.shields.io/badge/Twitter-0f0c29?style=for-the-badge&logo=twitter&logoColor=a78bfa)](https://twitter.com/YOUR_TWITTER)
+[![Email](https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=38bdf8)](mailto:your@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=vercel&logoColor=a78bfa)](https://your-site.com)
+
 <br/>
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=a78bfa&style=flat-square&label=visitors"/>
+
+![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=a78bfa&style=flat-square&label=visitors)
+
 </div>

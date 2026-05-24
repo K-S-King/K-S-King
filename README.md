@@ -11,10 +11,9 @@
 ## 🧑‍💻 About Me
 
 ```yaml
-name:       "Your Name"
-location:   "Your City, Country 🌍"
-role:       "Backend Developer"
-currently:  "Building cool stuff and learning every day"
+name:       "Karan"
+role:       "Backend Developer."
+currently:  "Building cool stuff and learning every day."
 interests:  ["System Design", "APIs", "Databases", "Open Source"]
 fun_fact:   "I talk to my terminal more than people 😄"
 ```

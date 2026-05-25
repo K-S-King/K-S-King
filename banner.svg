@@ -100,7 +100,7 @@
 
   <!-- Name -->
   <text x="70" y="118" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="44" opacity="0">
-    Your Name
+    Karan
     <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.4s" fill="freeze"/>
   </text>
 

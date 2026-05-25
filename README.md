@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" width="100%"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Mobile+Dev+%7C+AI+%2F+ML+%7C+Backend;Building+apps+that+think+%F0%9F%A4%96;Flutter+%C2%B7+Python+%C2%B7+FastAPI" />
 </div>
 
 <br/>
@@ -11,7 +11,7 @@ Currently obsessed with bringing AI into mobile experiences that actually feel m
 
 <br/>
 
-*Based in Your City &nbsp;·&nbsp; Open to collabs &nbsp;·&nbsp; Always building something*
+*Open to collabs &nbsp;·&nbsp; Always building something*
 
 </div>
 
@@ -52,16 +52,16 @@ Currently obsessed with bringing AI into mobile experiences that actually feel m
 <tr>
 <td width="50%" align="center">
 
-[![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_1&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_1)
+[![Card](https://github-readme-stats.vercel.app/api/pin/?username=K-S-King&repo=YOUR_REPO_1&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/K-S-King/YOUR_REPO_1)
 
-Flutter · FastAPI · AWS &nbsp;·&nbsp; *What it does in one line.*
+*Replace YOUR_REPO_1 with a real repo name*
 
 </td>
 <td width="50%" align="center">
 
-[![Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO_2&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/YOUR_USERNAME/YOUR_REPO_2)
+[![Card](https://github-readme-stats.vercel.app/api/pin/?username=K-S-King&repo=YOUR_REPO_2&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=38bdf8&text_color=cbd5e1)](https://github.com/K-S-King/YOUR_REPO_2)
 
-Python · ML · Django &nbsp;·&nbsp; *What it does in one line.*
+*Replace YOUR_REPO_2 with a real repo name*
 
 </td>
 </tr>
@@ -71,12 +71,12 @@ Python · ML · Django &nbsp;·&nbsp; *What it does in one line.*
 
 ### 📈 Activity
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0f0c29&color=a78bfa&line=38bdf8&point=ffffff&area=true&hide_border=true&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=K-S-King&bg_color=0f0c29&color=a78bfa&line=38bdf8&point=ffffff&area=true&hide_border=true&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
-  <img alt="snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K-S-King/K-S-King/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/K-S-King/K-S-King/output/github-contribution-grid-snake.svg"/>
 </picture>
 </div>
 
@@ -87,10 +87,9 @@ Python · ML · Django &nbsp;·&nbsp; *What it does in one line.*
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=38bdf8)](https://linkedin.com/in/YOUR_LINKEDIN)
 [![Twitter](https://img.shields.io/badge/Twitter-0f0c29?style=for-the-badge&logo=twitter&logoColor=a78bfa)](https://twitter.com/YOUR_TWITTER)
 [![Email](https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=38bdf8)](mailto:your@email.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=vercel&logoColor=a78bfa)](https://your-site.com)
 
 <br/>
 
-![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=a78bfa&style=flat-square&label=visitors)
+![](https://komarev.com/ghpvc/?username=K-S-King&color=a78bfa&style=flat-square&label=visitors)
 
 </div>

@@ -1,83 +1,149 @@
 <svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0c29"/>
-      <stop offset="100%" style="stop-color:#1a1040"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0118"/>
+      <stop offset="45%" style="stop-color:#150d2e"/>
+      <stop offset="100%" style="stop-color:#020d1f"/>
     </linearGradient>
-    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#a78bfa"/>
-      <stop offset="100%" style="stop-color:#38bdf8"/>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
     </linearGradient>
+    <linearGradient id="glow2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="textgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c4b5fd"/>
+      <stop offset="50%" style="stop-color:#f0abfc"/>
+      <stop offset="100%" style="stop-color:#67e8f9"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="blur4"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="blur16"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <style>
-      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-      @keyframes in1   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
-      @keyframes in2   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
-      @keyframes in3   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
-      @keyframes in4   { from{opacity:0;transform:translateX(-8px)} to{opacity:1;transform:translateX(0)} }
-      .mono { font-family:'Courier New',monospace; }
-      .sans { font-family:'Segoe UI',Arial,sans-serif; }
-      .r1 { opacity:0; animation:in1 0.4s 0.3s ease forwards; }
-      .r2 { opacity:0; animation:in2 0.4s 0.7s ease forwards; }
-      .r3 { opacity:0; animation:in3 0.4s 1.1s ease forwards; }
-      .r4 { opacity:0; animation:in4 0.4s 1.5s ease forwards; }
-      .cur{ animation:blink 1s 1.5s infinite; }
+      @keyframes floatA {
+        0%,100% { transform: translateY(0px) translateX(0px); }
+        33%      { transform: translateY(-12px) translateX(6px); }
+        66%      { transform: translateY(6px) translateX(-8px); }
+      }
+      @keyframes floatB {
+        0%,100% { transform: translateY(0px) translateX(0px); }
+        33%      { transform: translateY(10px) translateX(-6px); }
+        66%      { transform: translateY(-8px) translateX(10px); }
+      }
+      @keyframes floatC {
+        0%,100% { transform: translateY(0px); }
+        50%      { transform: translateY(-14px); }
+      }
+      @keyframes pulse {
+        0%,100% { opacity: 0.5; }
+        50%      { opacity: 1; }
+      }
+      @keyframes pulse2 {
+        0%,100% { opacity: 0.3; }
+        50%      { opacity: 0.7; }
+      }
+      @keyframes rotateSlow {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @keyframes fadein { from{opacity:0} to{opacity:1} }
+      @keyframes slideup { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+
+      .fa { animation: floatA 7s ease-in-out infinite; }
+      .fb { animation: floatB 9s ease-in-out infinite; }
+      .fc { animation: floatC 6s ease-in-out infinite; }
+      .p1 { animation: pulse 3s ease-in-out infinite; }
+      .p2 { animation: pulse2 4s ease-in-out infinite; }
+      .rot { transform-origin: center; animation: rotateSlow 18s linear infinite; }
+      .t1 { opacity:0; animation: fadein 0.8s 0.2s forwards; }
+      .t2 { opacity:0; animation: slideup 0.8s 0.5s forwards; }
+      .t3 { opacity:0; animation: slideup 0.7s 0.9s forwards; }
+      .t4 { opacity:0; animation: fadein 0.6s 1.3s forwards; }
     </style>
   </defs>
 
-  <!-- Window bg -->
-  <rect width="900" height="200" rx="10" fill="url(#grad)"/>
+  <!-- Base -->
+  <rect width="900" height="200" fill="url(#bg)"/>
 
-  <!-- Title bar -->
-  <rect width="900" height="36" rx="10" fill="#1e1b36"/>
-  <rect y="26" width="900" height="10" fill="#1e1b36"/>
-  <rect y="36" width="900" height="1" fill="#2d2a50"/>
+  <!-- Ambient orbs -->
+  <ellipse cx="160" cy="100" rx="180" ry="130" fill="url(#orb1)" filter="url(#blur16)"/>
+  <ellipse cx="780" cy="90" rx="160" ry="120" fill="url(#orb2)" filter="url(#blur16)"/>
 
-  <!-- Traffic lights -->
-  <circle cx="26" cy="18" r="6" fill="#ff5f56"/>
-  <circle cx="46" cy="18" r="6" fill="#ffbd2e"/>
-  <circle cx="66" cy="18" r="6" fill="#27c93f"/>
-
-  <!-- Tab title -->
-  <text x="450" y="22" text-anchor="middle" class="mono" fill="#8b89a8" font-size="12">~/your-name — main ✦</text>
-
-  <!-- Prompt line 1 -->
-  <g class="r1">
-    <text x="32" y="68" class="mono" fill="#6b7280" font-size="13">Last login: Mon Oct 14 22:31:04</text>
+  <!-- Floating rings (back) -->
+  <g class="fa" style="transform-origin:720px 52px">
+    <circle cx="720" cy="52" r="38" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.2"/>
+    <circle cx="720" cy="52" r="25" fill="none" stroke="#a78bfa" stroke-width="0.5" opacity="0.15"/>
+  </g>
+  <g class="fb" style="transform-origin:810px 145px">
+    <circle cx="810" cy="145" r="28" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.2"/>
+  </g>
+  <g class="fc" style="transform-origin:840px 48px">
+    <circle cx="840" cy="48" r="14" fill="none" stroke="#f0abfc" stroke-width="0.8" opacity="0.25"/>
   </g>
 
-  <!-- Prompt line 2 -->
-  <g class="r2">
-    <text x="32" y="96" class="mono" font-size="14">
-      <tspan fill="#27c93f">your-name</tspan>
-      <tspan fill="#8b89a8">@</tspan>
-      <tspan fill="#38bdf8">github</tspan>
-      <tspan fill="#8b89a8"> ~/portfolio </tspan>
-      <tspan fill="#a78bfa">main ✦</tspan>
-      <tspan fill="#8b89a8"> ❯ </tspan>
-      <tspan fill="#f8fafc">whoami</tspan>
-    </text>
+  <!-- Rotating hexagon outline -->
+  <g style="transform-origin:760px 100px" class="rot">
+    <polygon points="760,60 795,80 795,120 760,140 725,120 725,80"
+             fill="none" stroke="#a78bfa" stroke-width="0.7" opacity="0.12"/>
   </g>
 
-  <!-- Output: name big -->
-  <g class="r3">
-    <text x="32" y="133" class="sans" font-size="32" font-weight="700" fill="url(#acc)">Your Name</text>
+  <!-- Floating dots cluster right -->
+  <g class="fa" style="transform-origin:860px 80px">
+    <circle cx="855" cy="72"  r="3" fill="#a78bfa" opacity="0.5" class="p1"/>
+    <circle cx="868" cy="88"  r="2" fill="#38bdf8" opacity="0.4" class="p2"/>
+    <circle cx="848" cy="96"  r="2.5" fill="#f0abfc" opacity="0.45" class="p1"/>
   </g>
 
-  <!-- Output: subtitle -->
-  <g class="r4">
-    <text x="34" y="155" class="mono" font-size="13" fill="#8b89a8">→ Mobile Dev · AI/ML · Backend · Open Source</text>
+  <!-- Floating dots cluster left -->
+  <g class="fb" style="transform-origin:68px 130px">
+    <circle cx="60"  cy="125" r="2.5" fill="#38bdf8" opacity="0.4" class="p2"/>
+    <circle cx="75"  cy="140" r="2"   fill="#a78bfa" opacity="0.45" class="p1"/>
+    <circle cx="55"  cy="148" r="3"   fill="#f0abfc" opacity="0.3" class="p2"/>
   </g>
 
-  <!-- New prompt + cursor -->
-  <g class="r4">
-    <text x="32" y="182" class="mono" font-size="14">
-      <tspan fill="#27c93f">your-name</tspan>
-      <tspan fill="#8b89a8">@</tspan>
-      <tspan fill="#38bdf8">github</tspan>
-      <tspan fill="#8b89a8"> ~/portfolio </tspan>
-      <tspan fill="#a78bfa">main ✦</tspan>
-      <tspan fill="#8b89a8"> ❯ </tspan>
-    </text>
-    <rect x="210" y="169" width="9" height="16" fill="#a78bfa" class="cur"/>
+  <!-- Scattered small dots -->
+  <circle cx="200" cy="28"  r="1.5" fill="#a78bfa" opacity="0.3" class="p2"/>
+  <circle cx="350" cy="18"  r="1"   fill="#38bdf8" opacity="0.25" class="p1"/>
+  <circle cx="530" cy="22"  r="1.5" fill="#f0abfc" opacity="0.2" class="p2"/>
+  <circle cx="680" cy="175" r="1.5" fill="#a78bfa" opacity="0.3" class="p1"/>
+  <circle cx="120" cy="172" r="1"   fill="#38bdf8" opacity="0.25" class="p2"/>
+
+  <!-- Thin accent line top -->
+  <rect x="0" y="0" width="900" height="1.5" fill="url(#textgrad)" opacity="0.3"/>
+  <!-- Thin accent line bottom -->
+  <rect x="0" y="198.5" width="900" height="1.5" fill="url(#textgrad)" opacity="0.2"/>
+
+  <!-- Floating pill tags -->
+  <g class="fa t4" style="transform-origin:112px 162px">
+    <rect x="76" y="152" width="72" height="20" rx="10" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="112" y="166" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10" fill="#c4b5fd" opacity="0.85">📱 Flutter</text>
   </g>
+  <g class="fb t4" style="transform-origin:200px 162px">
+    <rect x="158" y="152" width="84" height="20" rx="10" fill="#38bdf8" fill-opacity="0.08" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.35"/>
+    <text x="200" y="166" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10" fill="#7dd3fc" opacity="0.85">🤖 AI / ML</text>
+  </g>
+  <g class="fc t4" style="transform-origin:296px 162px">
+    <rect x="252" y="152" width="88" height="20" rx="10" fill="#f0abfc" fill-opacity="0.07" stroke="#f0abfc" stroke-width="0.8" stroke-opacity="0.3"/>
+    <text x="296" y="166" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10" fill="#f0abfc" opacity="0.8">⚙️ Backend</text>
+  </g>
+
+  <!-- Name -->
+  <text x="112" y="96" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="48" fill="url(#textgrad)" filter="url(#softglow)" class="t2">Your Name</text>
+
+  <!-- Tagline -->
+  <text x="114" y="128" font-family="'Segoe UI',Arial,sans-serif" font-size="15" fill="#94a3b8" letter-spacing="1.5" class="t3">Mobile Dev  ·  AI / ML  ·  Backend  ·  Open Source</text>
 </svg>

@@ -44,10 +44,10 @@ Currently obsessed with bringing AI into mobile experiences that actually feel m
 ### 🛠 Stack
 
 &nbsp;&nbsp;&nbsp;&nbsp;**Mobile** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Flutter &nbsp;·&nbsp; Dart  
-&nbsp;&nbsp;&nbsp;&nbsp;**AI / ML** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python &nbsp;·&nbsp; TensorFlow &nbsp;·&nbsp; scikit-learn  
+&nbsp;&nbsp;&nbsp;&nbsp;**AI / ML** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Python &nbsp;·&nbsp; TensorFlow &nbsp;·&nbsp; scikit-learn  
 &nbsp;&nbsp;&nbsp;&nbsp;**Backend** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FastAPI &nbsp;·&nbsp; Django &nbsp;·&nbsp; PHP  
-&nbsp;&nbsp;&nbsp;&nbsp;**Data** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MySQL &nbsp;·&nbsp; SQLite  
-&nbsp;&nbsp;&nbsp;&nbsp;**Infra** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Linux  
+&nbsp;&nbsp;&nbsp;&nbsp;**Data** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  MySQL &nbsp;·&nbsp; SQLite  
+&nbsp;&nbsp;&nbsp;&nbsp;**Infra** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Linux  
 &nbsp;&nbsp;&nbsp;&nbsp;**Also know** &nbsp;&nbsp;&nbsp;&nbsp; Java  
 
 ---

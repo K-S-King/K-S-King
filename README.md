@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Mobile+Dev+%7C+AI+%2F+ML+%7C+Backend;Building+apps+that+think+%F0%9F%A4%96;Flutter+%C2%B7+Python+%C2%B7+FastAPI" />
+  <img src="./banner.svg" width="100%" alt="K-S-King"/>
 </div>
 
 <br/>
@@ -32,6 +32,12 @@ Currently obsessed with bringing AI into mobile experiences that actually feel m
 > **[Project Name]** — One sentence that makes someone want to ask about it  
 > Diving deep into **RAG pipelines** and **TFLite + Flutter** for on-device intelligence  
 > Currently learning: *[something specific and real]*
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Mobile+Dev+%7C+AI+%2F+ML+%7C+Backend;Building+apps+that+think+%F0%9F%A4%96;Flutter+%C2%B7+Python+%C2%B7+FastAPI;Always+building+something+%F0%9F%9A%80" />
+</div>
 
 ---
 
